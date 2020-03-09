@@ -34,7 +34,7 @@ def now_serving(deliline)
   if deliline.size == 0 then
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{deliline[0].}"
+    puts "Currently serving #{deliline[0]}."
     deliline.shift
   end
 end
