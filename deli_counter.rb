@@ -15,7 +15,7 @@ def line(katz_deli)
   c = 0
   a.times do
     piece = katz_deli[c]
-    delistring = delistring + "#{b}. #{piece} "
+    delistring = delistring + "#{b}. #{piece}"
     b += 1 
     c += 1 
   end
