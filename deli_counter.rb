@@ -9,13 +9,13 @@ def line(katz_deli)
     puts "The line is currently empty."
     return katz_deli
   else
-  delistring = "The line is currently: "
+  delistring = "The line is currently:"
   piece = " "
   b = 1
   c = 0
   a.times do
     piece = katz_deli[c]
-    delistring = delistring + "#{b}. #{piece}"
+    delistring = delistring + " #{b}. #{piece}"
     b += 1 
     c += 1 
   end
