@@ -3,25 +3,25 @@
 katz_deli = ["Andy","Bill","Charles","David","Emily"]
 katz_deli = []
 
-def line(deliline)
-  a = deliline.size 
+def line(katz_deli)
+  a = katz_deli.size 
   if a == 0 then
     puts "The line is currently empty."
-    return "The line is currently empty."
+    return katz_deli
   else
   delistring = "The line is currently: "
   piece = " "
   b = 1
   c = 0
   a.times do
-    piece = deliline[c]
+    piece = katz_deli[c]
     delistring = delistring + "#{b}. #{piece} "
     b += 1 
     c += 1 
   end
   end
   puts delistring
-  return delistring
+  return katz_deli
 end
 
 def take_a_number(deliline, name)
