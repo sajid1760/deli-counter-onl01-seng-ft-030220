@@ -1,7 +1,7 @@
 # Write your code here.
 
 #$katz_deli = ["Andy","Bill","Charles","David","Emily"]
-$katz_deli = []
+#katz_deli = []
 
 def line(deliline)
   a = deliline.size 
@@ -25,7 +25,7 @@ end
 def take_a_number(deliline, name)
   d = deliline.size + 1 
   puts "Welcome, #{name}. You are number #{d} in line."
-  $katz_deli.push(name)
+  deliline.push(name)
 end
 
 def now_serving(deliline)
@@ -33,19 +33,19 @@ def now_serving(deliline)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{deliline[0]}"
-    $katz_deli.shift
+    deliline.shift
   end
 end
 
 
-take_a_number($katz_deli,"Ada")
-take_a_number($katz_deli,"Grace")
-take_a_number($katz_deli,"Kent")
-line($katz_deli)
-now_serving($katz_deli)
-line($katz_deli)
-take_a_number($katz_deli,"Matz")
-line($katz_deli)
-now_serving($katz_deli)
-line($katz_deli)
+#take_a_number($katz_deli,"Ada")
+#take_a_number($katz_deli,"Grace")
+#take_a_number($katz_deli,"Kent")
+#line($katz_deli)
+#now_serving($katz_deli)
+#line($katz_deli)
+#take_a_number($katz_deli,"Matz")
+#line($katz_deli)
+#now_serving($katz_deli)
+#line($katz_deli)
 
