@@ -1,7 +1,7 @@
 # Write your code here.
 
 katz_deli = ["Andy","Bill","Charles","David","Emily"]
-#katz_deli = []
+katz_deli = []
 
 def line(deliline)
   a = deliline.size 
