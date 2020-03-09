@@ -7,6 +7,7 @@ def line(deliline)
   a = deliline.size 
   if a == 0 then
     puts "The line is currently empty."
+    return "The line is currently empty."
   else
   delistring = "The line is currently: "
   piece = " "
@@ -20,6 +21,7 @@ def line(deliline)
   end
   end
   puts delistring
+  return delistring
 end
 
 def take_a_number(deliline, name)
